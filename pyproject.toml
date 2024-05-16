@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airbnb-regulations-check"
+version = "0.1.0"
+description = ""
+authors = ["Anna Beketova <anna.beketova.ml@gmail.com>"]
+readme = "README.md"
+packages = [{include = "airbnb_regulations_check"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
